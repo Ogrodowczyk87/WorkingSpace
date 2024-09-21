@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-/*! Navigation Menu */
+/* Navigation Menu */
 
 header {
     display: flex;
@@ -60,4 +60,34 @@ header {
     .nav-links.active {
         display: flex;
     }
+}
+
+/* Home section */
+
+.home {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.max-width {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-inline: 200px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.home-content {
+    margin-right: 200px;
+}
+
+.home-picture {
+    width: 250px;
+    height: 250px;
+    /* margin-left: 100px; */
 }

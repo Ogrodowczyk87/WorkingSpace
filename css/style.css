@@ -24,11 +24,8 @@ header {
     display: none;
     font-size: 30px;
     cursor: pointer;
+    padding-left: 110px;
 }
-
-/* header.active .logo {
-    display: none;
-} */
 
 .nav-links {
     list-style: none;
@@ -44,6 +41,7 @@ header {
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
+
     }
 
     .nav-links {
@@ -69,21 +67,19 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(221, 199, 128);
+    color: black;
+    border-bottom: solid 3px black;
 }
 
 .max-width {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-inline: 200px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .home-content {
-    margin-right: 200px;
+    margin-bottom: 25px;
 }
 
 .home-picture {
@@ -91,3 +87,35 @@ header {
     height: 250px;
     /* margin-left: 100px; */
 }
+
+.text-1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.text-3 span {
+    color: red;
+    font-weight: bold;
+}
+
+/* About Me */
+
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 199, 128);
+    color: black;
+    border-bottom: solid 3px black;
